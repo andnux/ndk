@@ -10,16 +10,16 @@ allprojects {
 - Step 2. Add the dependency
 ```groovy
 dependencies {
-    implementation 'com.github.andnux:ndk:1.1.0'
+    implementation 'com.github.andnux:ndk:0.0.1'
     or
-    implementation 'com.github.andnux.ndk:lame:1.1.0'
-    implementation 'com.github.andnux.ndk:fmod:1.1.0'
-    implementation 'com.github.andnux.ndk:jpeg:1.1.0'
-    implementation 'com.github.andnux.ndk:soundtouch:1.1.0'
-    implementation 'com.github.andnux.ndk:ffmpeg:1.1.0'
-    implementation 'com.github.andnux.ndk:bspatch:1.1.0'
-    implementation 'com.github.andnux.ndk:glide:1.1.0'
-    implementation 'com.github.andnux.ndk:yuv:1.1.0'
-    implementation 'com.github.andnux.ndk:rtmp:1.1.0'
+    implementation 'com.github.andnux.ndk:lame:0.0.1'
+    implementation 'com.github.andnux.ndk:fmod:0.0.1'
+    implementation 'com.github.andnux.ndk:jpeg:0.0.1'
+    implementation 'com.github.andnux.ndk:soundtouch:0.0.1'
+    implementation 'com.github.andnux.ndk:ffmpeg:0.0.1'
+    implementation 'com.github.andnux.ndk:bspatch:0.0.1'
+    implementation 'com.github.andnux.ndk:glide:0.0.1'
+    implementation 'com.github.andnux.ndk:yuv:0.0.1'
+    implementation 'com.github.andnux.ndk:rtmp:0.0.1'
 }
 ```
