@@ -1,2 +1,2 @@
-include ':app', ':aac', ':bspatch', ':ffmpeg', ':fmod', ':glide', ':jpeg', ':lame', ':rtmp', ':soundtouch', ':x264', ':yuv', ':zbar'
+include ':app', ':aac', ':bspatch', ':ffmpeg', ':fmod', ':glide', ':jpeg', ':lame', ':rtmp', ':soundtouch', ':x264', ':yuv', ':zbar', ':breakpad'
 rootProject.name='ndk'
