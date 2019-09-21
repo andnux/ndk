@@ -17,6 +17,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
 }
 
 dependencies {
@@ -24,7 +28,19 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:runner:1.1.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation project(path: ':breakpad')
+    implementation project(path: ':aac')
+    implementation project(path: ':bspatch')
+    implementation project(path: ':ffmpeg')
+    implementation project(path: ':fmod')
+    implementation project(path: ':glide')
+    implementation project(path: ':jpeg')
+    implementation project(path: ':lame')
+    implementation project(path: ':rtmp')
+    implementation project(path: ':soundtouch')
+    implementation project(path: ':x264')
+    implementation project(path: ':yuv')
+    implementation project(path: ':zbar')
 }
